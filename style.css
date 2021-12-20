@@ -1,0 +1,32 @@
+ul {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.task:hover {
+        font-weight: bold;
+}
+
+.task {
+    background: white;
+    font-size: xx-large;
+    padding: 20px 40px;
+    border: 2px #e3c3d4;
+    border-radius: 10px; 
+    box-shadow: 0 0 0 4px #2c2a2b, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); 
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+li {
+    margin-top: 60px;
+}

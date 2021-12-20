@@ -1,0 +1,21 @@
+#trafficLight {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
+
+div {
+  border: 2px black;
+  box-shadow: 0 0 0 4px #222121, 2px 1px 6px 4px rgba(0, 0, 0, 0.5); 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 60px;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(212, 210, 210), rgb(66, 66, 68));
+}

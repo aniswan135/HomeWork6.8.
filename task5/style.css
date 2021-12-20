@@ -1,0 +1,55 @@
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+  }
+
+input:focus {
+    color: black;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+
+body {
+    background: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 13px;
+    font-size: x-large;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(43, 42, 42);
+  }
+  
+button:hover {background-color: darkgray}
+  
+button:active {
+    background-color: #ccc91a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.text {
+    background: silver;
+    width: fit-content;
+    font-size: x-large;
+    padding: 20px 40px;
+    border: 2px black;
+    border-radius: 10px; 
+    box-shadow: 0 0 0 4px #2c2a2b, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); 
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}

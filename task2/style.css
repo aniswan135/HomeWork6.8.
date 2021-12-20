@@ -1,0 +1,25 @@
+body {
+    background: whitesmoke;
+}
+
+p {
+    font-size: x-large;
+}
+
+code {
+    background: white;
+    font-size: medium;
+    padding: 20px 40px;
+    border: 2px #e3c3d4;
+    border-radius: 10px; 
+    box-shadow: 0 0 0 4px #2c2a2b, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); 
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p:hover {
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+}
+
